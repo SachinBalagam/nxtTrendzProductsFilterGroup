@@ -12,3 +12,56 @@
 }
 
 /* Write your CSS here */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.search {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.category-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+.category-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.button {
+  font-size: 15px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  color: #64748b;
+  cursor: pointer;
+}
+.each-list {
+  display: flex;
+  align-items: center;
+}
+.rating-image {
+  width: 150px;
+  margin-right: 10px;
+}
+.clear-button {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  font-weight: bold;
+  font-family: 'Roboto';
+  cursor: pointer;
+  border-radius: 5px;
+}
+.active {
+  color: #0967d2;
+}
